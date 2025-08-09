@@ -1,0 +1,9 @@
+ultralytics>=8.2.0
+# Pin torch to a recent stable; adjust for CUDA if available
+torch>=2.2.0
+torchvision>=0.17.0
+opencv-python>=4.8.0
+numpy>=1.26
+pyyaml>=6.0
+flask>=3.0.0
+pillow>=10.0.0

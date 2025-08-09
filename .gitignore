@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Ultralytics runs
+runs/
+
+# Dataset splits
+dataset/yolo/
+
+# Editors
+.vscode/
+.idea/

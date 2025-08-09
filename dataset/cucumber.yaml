@@ -1,0 +1,8 @@
+# YOLOv8 dataset YAML for cucumber freshness
+path: /home/mshawki/_dev/cucumber-freshness/dataset/yolo
+train: train/images
+val: val/images
+test: test/images
+names:
+  - wilted_cucumber
+  - fresh cucumber
