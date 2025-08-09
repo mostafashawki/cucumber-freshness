@@ -78,7 +78,7 @@ def write_dataset_yaml(root: Path, yaml_path: Path):
         "test: test/images\n"
         "names:\n"
         "  - wilted_cucumber\n"
-        "  - fresh cucumber\n"
+        "  - fresh_cucumber\n"
     )
     yaml_path.write_text(content)
 

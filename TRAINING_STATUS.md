@@ -6,7 +6,7 @@
 - **106 labeled cucumber images** (fresh vs wilted)
 - **YOLO format labels** with classes:
   - 0: wilted_cucumber  
-  - 1: fresh cucumber
+  - 1: fresh_cucumber
 - **Train/Val/Test split**: 84/10/12 images (80/10/10%)
 - **Dataset YAML**: `dataset/cucumber.yaml` configured for YOLOv8
 

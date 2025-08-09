@@ -4,7 +4,7 @@ Detect fresh vs wilted cucumbers using a YOLOv8 model, then run a camera-enabled
 
 Classes:
 - 0 → `wilted_cucumber`
-- 1 → `fresh cucumber`
+- 1 → `fresh_cucumber`
 
 ## 1) Setup
 
