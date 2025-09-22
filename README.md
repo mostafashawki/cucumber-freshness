@@ -30,6 +30,29 @@ Note: If `python3 -m venv` fails on Ubuntu/Debian, install venv first: `sudo apt
 
 ## 2) Dataset
 
+### Data Labeling with Roboflow
+
+This project uses [Roboflow](https://app.roboflow.com/) for image annotation and dataset management. Roboflow provides several key advantages for computer vision projects:
+
+**Key Advantages of Roboflow:**
+- **Intuitive Web-based Interface**: Easy-to-use annotation tools that work directly in your browser
+- **Team Collaboration**: Multiple team members can collaborate on labeling tasks with role-based access
+- **Quality Control**: Built-in review workflows and annotation quality checks
+- **Format Flexibility**: Automatic conversion between different annotation formats (YOLO, COCO, Pascal VOC, etc.)
+- **Dataset Versioning**: Track changes and maintain different versions of your dataset
+- **Augmentation Pipeline**: Built-in data augmentation capabilities to expand your dataset
+- **Export Options**: Seamless export to various formats for different ML frameworks
+- **Analytics & Insights**: Dataset health checks and distribution analysis
+
+To use Roboflow for your own dataset:
+1. Create a project at [app.roboflow.com](https://app.roboflow.com/)
+2. Upload your cucumber images
+3. Annotate with bounding boxes for `fresh_cucumber` and `wilted_cucumber` classes
+4. Export in YOLO format
+5. Place the exported data in the structure below
+
+### Dataset Structure
+
 Place your images and YOLO-format labels here:
 
 ```
